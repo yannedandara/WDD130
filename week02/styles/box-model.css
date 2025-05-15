@@ -8,13 +8,13 @@
 }
 
 .callout img {
-    width: 20px;
-    padding: 2 px; color: gray;
+    width: 20;
+    padding: 2px; color: gray;
     position: left;
-    margin: 0px;
-    border: 0px;
+    margin: 0;
+    border: 0;
     background-color: aliceblue;
-    height: 20px;
+    height: 20;
 }
 
 blockquote {
