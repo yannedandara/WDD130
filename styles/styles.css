@@ -1,0 +1,48 @@
+:root {
+    --main-colorful-color: #00008b;
+    --contrastic-color: #000000;
+    --text-aling-standard: center;
+}
+nav {
+    background-color: var(--main-colorful-color);
+    padding: 10px;
+}
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+h1 {
+    color: var(--main-colorful-color);
+}
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid var(--contrastic-color);
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+p {
+    padding: 0;
+}
+main {
+    max-width: 840px;
+}
+aside {
+    width: 600px;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+    background-color: lightblue;
+    color: var(--contrastic-color);
+    text-align: var(--text-aling-standard);
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px;
+    text-align: var(--text-aling-standard);
+}
