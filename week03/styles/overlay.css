@@ -17,7 +17,8 @@ h1 {
 
 .herodiv {
 	margin: 10px auto;
-	/*position: relative; /* If removed, what happens? */
+	position: relative;
+	/* If removed, what happens? */
 }
 
 .herodiv img {
@@ -35,8 +36,8 @@ h1 {
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #111;
 	opacity: 0.9;
-    bottom: 25px;
-    left: 15px;
+	bottom: 25px;
+	left: 15px;
 }
 
 h2 {
