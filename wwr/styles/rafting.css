@@ -72,17 +72,18 @@ h1 {
 
 article {
     position: absolute;
-    right: 5px;
+    right: 0;
     width: 25%;
     background-color: var(--secondary-color);
-    padding: 5px;
+    padding: 2px;
+    color: var(--accent1-color);
 
 }
 
 .hero article img {
     float: right;
     width: 100px;
-    border-image: 3px;
+    border-image: 1px;
     border-color: var(--secondary-color);
 }
 
