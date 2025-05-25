@@ -86,4 +86,6 @@ article {
 .adventure {
     text-align: center;
     align-items: center;
+    width: 90%;
+    height: auto;
 }
