@@ -45,6 +45,8 @@ section {
 
 .socialmedia a {
     text-decoration: none;
+    position: absolute;
+    align-items: center;
 }
 
 .hero {
@@ -63,7 +65,7 @@ h1 {
     top: 25px;
     padding: 15px;
     text-align: center;
-    opacity: 20%;
+    opacity: 90%;
     background-color: var(--accent2-color);
     color: var(--secondary-color);
 }
@@ -76,7 +78,12 @@ article {
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 50px;
     border-image: 3px;
     border-color: var(--secondary-color);
+}
+
+.adventure {
+    text-align: center;
+    align-items: center;
 }
