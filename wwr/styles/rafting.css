@@ -76,7 +76,8 @@ article {
     background-color: var(--secondary-color);
     padding: 0px;
     color: var(--accent1-color);
-    border: 5px, var(--accent1-color);
+    border: 5px;
+    border-color: var(--accent1-color);
     box-shadow: var(--accent1-color);
     padding: 0px;
 
