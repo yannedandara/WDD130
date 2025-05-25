@@ -76,11 +76,12 @@ article {
     right: 5px;
     width: 25%;
     background-color: var(--accent1-color);
+
 }
 
 .hero article img {
     float: right;
-    width: 50px;
+    width: 100px;
     border-image: 3px;
     border-color: var(--secondary-color);
 }
@@ -90,9 +91,4 @@ article {
     align-items: center;
     width: 90%;
     height: auto;
-}
-
-footer {
-    position: absolute;
-    width: 50%;
 }
