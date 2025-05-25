@@ -46,7 +46,6 @@ section {
 .socialmedia a {
     text-decoration: none;
     position: absolute;
-    float: right;
 }
 
 .hero {
@@ -101,4 +100,8 @@ article {
 
 header img {
     align-content: center;
+}
+
+footer {
+    text-align: center;
 }
