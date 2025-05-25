@@ -74,7 +74,7 @@ article {
     position: absolute;
     right: 5px;
     width: 25%;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     padding: 5px;
 
 }
@@ -104,8 +104,4 @@ header img {
 
 footer {
     text-align: center;
-}
-
-footer a {
-    align-items: baseline;
 }
