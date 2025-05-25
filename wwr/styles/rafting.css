@@ -98,3 +98,7 @@ article {
     position: relative;
     place-content: right;
 }
+
+header img {
+    align-content: center;
+}
