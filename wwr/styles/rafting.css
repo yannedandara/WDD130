@@ -46,7 +46,7 @@ section {
 .socialmedia a {
     text-decoration: none;
     position: absolute;
-    align-items: center;
+    float: right;
 }
 
 .hero {
@@ -76,6 +76,7 @@ article {
     right: 5px;
     width: 25%;
     background-color: var(--accent1-color);
+    padding: 5px;
 
 }
 
