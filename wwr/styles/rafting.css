@@ -92,3 +92,8 @@ article {
     width: 90%;
     height: auto;
 }
+
+.costumer img {
+    position: relative;
+    place-content: right;
+}
