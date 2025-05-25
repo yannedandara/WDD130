@@ -96,6 +96,7 @@ article {
 .costumer img {
     position: relative;
     place-content: right;
+    border: var(--accent1-color);
 }
 
 header img {
