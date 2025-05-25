@@ -90,3 +90,8 @@ article {
     width: 90%;
     height: auto;
 }
+
+footer {
+    text-align: center;
+    align-items: center;
+}
