@@ -105,3 +105,7 @@ header img {
 footer {
     text-align: center;
 }
+
+footer a {
+    align-items: baseline;
+}
