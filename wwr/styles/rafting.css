@@ -76,6 +76,7 @@ article {
     background-color: var(--secondary-color);
     padding: 2px;
     color: var(--accent1-color);
+    border: 2px, var(--accent1-color);
 
 }
 
