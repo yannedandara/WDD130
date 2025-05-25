@@ -61,18 +61,18 @@ section {
 
 h1 {
     position: absolute;
-    width: 100%;
+    width: 80%;
     top: 25px;
     padding: 15px;
     text-align: center;
     opacity: 90%;
-    background-color: var(--accent2-color);
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 article {
     position: absolute;
-    right: 50px;
+    right: 5px;
     width: 25%;
     background-color: var(--accent1-color);
 }
@@ -93,5 +93,4 @@ article {
 
 footer {
     text-align: center;
-    align-items: center;
 }
