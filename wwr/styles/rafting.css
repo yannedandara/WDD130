@@ -66,7 +66,7 @@ h1 {
     opacity: 90%;
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    box-sizing: 80%;
+    box-sizing: 2px;
 }
 
 article {
@@ -78,7 +78,7 @@ article {
     color: var(--accent1-color);
     border: 5px;
     border-color: var(--accent1-color);
-    box-shadow: var(--accent1-color);
+    box-shadow: #FEFEFE;
     padding: 0px;
 
 }
@@ -86,7 +86,7 @@ article {
 .hero article img {
     float: right;
     width: 100px;
-    border-image: 1px;
+    border-image: 1p;
     border-color: var(--secondary-color);
 }
 
@@ -99,8 +99,9 @@ article {
 
 .costumer img {
     position: relative;
-    place-content: right;
-    border: 2px, var(--accent1-color);
+    /*place-content: right;*/
+    border: 2rem;
+    border-color: var(--accent1-color);
 }
 
 header img {
