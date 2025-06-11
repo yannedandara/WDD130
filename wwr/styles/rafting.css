@@ -8,7 +8,7 @@
     --accent2-color: #855A28;
     /*coyote*/
     --heading-font: "Comfortaa", sans-serif;
-    --body-font: "Tajawal", sans-serif;
+    --paragraph-font: "Tajawal", sans-serif;
 }
 
 * {
@@ -25,7 +25,7 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -43,33 +43,34 @@ section {
     padding: 8px;
 }
 
-.socialmedia a {
+/*.social a {
     text-decoration: none;
-}
+}*/
 
 .hero {
     position: relative;
 }
 
-.hero img {
-    display: block;
+.hero>img {
     width: 100%;
-    height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     width: 100%;
     top: 25px;
     padding: 15px;
-    text-align: center;
+    /*text-align: center;*/
     opacity: 90%;
     background-color: var(--secondary-color);
     color: var(--accent1-color);
     box-sizing: 2px;
+    display: grid;
+    grid-column: 1;
+
 }
 
-article {
+.hero article {
     position: absolute;
     right: 0;
     width: 25%;
@@ -79,47 +80,53 @@ article {
     border: 5px;
     border-color: var(--accent1-color);
     box-shadow: #FEFEFE;
-    padding: 0px;
-
 }
 
 .hero article img {
-    float: right;
     width: 100px;
     border-image: 1p;
     border-color: var(--secondary-color);
 }
 
-.adventure {
-    text-align: center;
-    align-items: center;
-    width: 90%;
-    height: auto;
+.hero article p {
+    margin: 16px;
+    padding: 8px;
+    color: var(--accent1-color);
 }
+
+.social img {
+    width: 20px;
+    grid-column: 3;
+}
+
+.social {
+    grid-column: 3em;
+    justify-self: end;
+}
+
+/*.adventure {
+    text-align: center;
+    width: 115px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+}*/
 
 .costumer img {
     position: relative;
-    /*place-content: right;*/
     border: 2rem;
     border-color: var(--accent1-color);
 }
 
-header img {
-    align-items: center;
-}
-
 footer {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
 }
 
 header {
     display: grid;
-    grid-template-columns: 400px 5fr 100px;
-    justify-items: auto;
+    grid-template-columns: 200px auto;
+    align-items: center;
 }
 
-nav {
-    display: grid;
-    grid-row: 1;
-    justify-content: center;
-}
+nav
