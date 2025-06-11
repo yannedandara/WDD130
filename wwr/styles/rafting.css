@@ -118,7 +118,7 @@ header {
     justify-items: auto;
 }
 
-.navigation {
+nav {
     display: grid;
     grid-row: 1;
     justify-content: center;
