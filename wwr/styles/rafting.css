@@ -115,10 +115,10 @@ footer {
 header {
     display: grid;
     grid-template-columns: 400px 100px;
-    justify-items: center;
+    justify-items: auto;
 }
 
 .navigation {
     display: grid;
-    justify-content: center;
+    justify-content: auto;
 }
