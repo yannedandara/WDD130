@@ -114,8 +114,6 @@ footer {
 
 header {
     display: grid;
-    grid-template-columns: 400px 2fr 1fr;
-    align-content: center;
-    justify-content: space-around;
+    grid-template-columns: 400px 2fr 1fr justify-items: space-around;
 
 }
