@@ -114,11 +114,12 @@ footer {
 
 header {
     display: grid;
-    grid-template-columns: 200px 100px 100px 100px 100px;
+    grid-template-columns: 500px;
     justify-items: auto;
 }
 
 .navigation {
     display: grid;
+    grid-row: 1;
     justify-content: auto;
 }
