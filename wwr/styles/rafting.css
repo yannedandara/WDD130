@@ -114,7 +114,7 @@ footer {
 
 header {
     display: grid;
-    grid-template-columns: 400px 2fr;
+    grid-template-columns: 400px 2fr 100px;
     justify-items: auto;
 }
 
