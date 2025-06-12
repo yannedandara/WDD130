@@ -59,7 +59,7 @@ section {
     opacity: 90%;
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    box-sizing: 2px;
+    box-sizing: 2em;
     display: grid;
     grid-column: 1;
     justify-content: center;
@@ -67,10 +67,7 @@ section {
 }
 
 .hero article {
-    /*display: grid;
-    grid-column: 2;*/
     position: absolute;
-    /*right: 2rem;*/
     left: 1.6rem;
     top: 15rem;
     width: 90%;
@@ -79,7 +76,6 @@ section {
     color: var(--accent1-color);
     border: 0;
     border-color: var(--accent1-color);
-    box-shadow: #FEFEFE;
     opacity: 90%;
 }
 
@@ -109,7 +105,7 @@ section {
 }
 
 .social {
-    grid-column: 3em;
+    grid-column: 3;
     justify-self: end;
 }
 
@@ -196,7 +192,3 @@ figcaption {
 footer p {
     color: var(--primary-color);
 }
-
-/*.footer-menu {
-    color: var(--primary-color);
-}*/
