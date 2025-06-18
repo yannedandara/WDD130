@@ -192,3 +192,33 @@ figcaption {
 footer p {
     color: var(--primary-color);
 }
+
+
+
+.info {
+    display: grid;
+    grid-column: 1;
+    grid-row: 5;
+    align-items: center;
+    position: absolute;
+    left: 0rem;
+    box-sizing: border-box;
+    width: 50%;
+    height: 30rem;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: 2rem 2rem 2rem;
+    grid-template-rows: 10rem 10rem 10rem;
+    box-sizing: border-box;
+    width: 50%;
+    position: absolute;
+    right:
+    ;
+}
+
+.form {
+    position: relative;
+    bottom: auto;
+}
