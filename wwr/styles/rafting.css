@@ -230,6 +230,10 @@ footer p {
     justify-self: center;
 }
 
+h1 {
+    color: var(--accent1-color);
+}
+
 .employees p {
     text-align: center;
     height: 4.3rem;
