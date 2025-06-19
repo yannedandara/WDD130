@@ -297,6 +297,16 @@ footer p {
 
 
 a {
-    align-items: center;
+    text-align: center;
     color: var(--primary-color);
+    padding: 5rem;
+    size: 5rem;
 }
+
+.exemple {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2rem;
+}
+
+.exemple img {}
