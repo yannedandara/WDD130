@@ -257,9 +257,9 @@ footer p {
 
 .form {
     position: absolute;
-    bottom: -25rem;
+    bottom: -15rem;
     justify-content: center;
-    width: 93%;
+    width: 100%;
     align-items: center;
     text-align: center;
     margin: 0 auto;
