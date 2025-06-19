@@ -213,7 +213,7 @@ footer p {
 .employees {
     display: grid;
     grid-template-columns: 8.5rem 8.5rem 8.5rem;
-    grid-template-rows: 3rem 8rem 4rem;
+    grid-template-rows: 2rem 8rem 4rem;
     box-sizing: border-box;
     width: 47%;
     height: 20rem;
@@ -227,11 +227,12 @@ footer p {
 .employees h2 {
     display: grid;
     grid-column: 1 / -1;
-    justify-self: center;
-}
-
-h1 {
-    color: var(--accent1-color);
+    background-color: var(--accent1-color);
+    width: 110%;
+    /* justify-self: center; */
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
 }
 
 .employees p {
