@@ -196,7 +196,6 @@ footer p {
 
 
 
-
 .info {
     display: grid;
     grid-column: 1;
@@ -221,6 +220,7 @@ footer p {
     text-align: center;
 }
 
+
 .employees {
     display: grid;
     grid-template-columns: 8.5rem 8.5rem 8.5rem;
@@ -239,7 +239,7 @@ footer p {
     display: grid;
     grid-column: 1 / -1;
     background-color: var(--accent1-color);
-    width: 150%;
+    width: 170%;
     justify-content: center;
     justify-items: center;
 }
@@ -250,6 +250,7 @@ footer p {
     background-color: var(--accent1-color);
     display: grid;
     grid-template-rows: auto;
+    color: var(--primary-color);
 }
 
 .employees image {
@@ -258,13 +259,18 @@ footer p {
 }
 
 .form {
-    position: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    gap: 13rem;
     align-items: center;
     text-align: center;
     margin: 0 auto;
     color: var(--accent2-color);
+    position: absolute;
+    z-index: 10;
+    bottom: -25rem;
+    left: 0rem;
+    right: 0rem;
 
 }
 
@@ -297,16 +303,58 @@ footer p {
 
 
 a {
-    text-align: center;
+    display: grid;
+    justify-content: center;
     color: var(--primary-color);
-    padding: 5rem;
-    size: 5rem;
+    font-size: x-large;
 }
 
 .exemple {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 2rem;
+    grid-template-rows: 20rem 10rem;
+    padding: 1rem;
+    border-bottom: 5rem;
+    border-color: #224F0E;
+    align-items: center;
+
+
 }
 
-.exemple img {}
+.exemple p {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    box-sizing: border-box;
+    top: 4rem;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 5px solid var(--accent2-color);
+}
+
+.exemple img {
+    margin: 1rem;
+    border: 8px solid var(--accent2-color);
+}
+
+.available {
+    display: grid;
+    grid-template-columns: repeat(5, 10rem);
+    grid-template-rows: 2rem 11.5rem;
+    justify-content: center;
+}
+
+.available h2 {
+    display: grid;
+    grid-column: 1 / -1;
+    justify-content: center;
+}
+
+.available p {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--accent2-color);
+    justify-content: center;
+    color: var(--accent1-color);
+}
