@@ -237,7 +237,7 @@ footer p {
     display: grid;
     grid-column: 1 / -1;
     background-color: var(--accent1-color);
-    width: 110%;
+    width: 150%;
     justify-content: center;
     justify-items: center;
 }
@@ -257,8 +257,8 @@ footer p {
 
 .form {
     position: flex;
-    justify-content: center;
-    justify-items: last baseline;
+    top: auto;
+    bottom: 0;
     width: 100%;
     align-items: center;
     text-align: center;
