@@ -208,6 +208,15 @@ footer p {
     align-content: center;
     justify-content: center;
     justify-items: center;
+    color: var(--accent1-color);
+}
+
+.info h2 {
+    background-color: var(--accent1-color);
+    width: 150%;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
 }
 
 .employees {
@@ -229,10 +238,8 @@ footer p {
     grid-column: 1 / -1;
     background-color: var(--accent1-color);
     width: 110%;
-    /* justify-self: center; */
     justify-content: center;
     justify-items: center;
-    text-align: center;
 }
 
 .employees p {
@@ -250,5 +257,37 @@ footer p {
 
 .form {
     position: absolute;
-    bottom: -30rem;
+    bottom: -25rem;
+    justify-content: center;
+    width: 93%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    color: var(--accent2-color);
+
+}
+
+.form legend {
+    text-align: center;
+    color: var(--accent2-color);
+}
+
+.radio {
+    padding: 0.5rem;
+}
+
+.text1 {
+    padding: 0.5rem;
+}
+
+.message {
+    padding: 0.5rem;
+}
+
+.checkbox {
+    padding: 0.5rem;
+}
+
+.button {
+    padding: 0.5rem;
 }
