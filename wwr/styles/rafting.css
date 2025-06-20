@@ -266,7 +266,7 @@ footer p {
     text-align: center;
     margin: 0 auto;
     color: var(--accent2-color);
-    position: absolute;
+    display: flex;
     z-index: 10;
     bottom: -25rem;
     left: 0rem;
@@ -364,7 +364,7 @@ a {
 
 
 .heading-hero {
-    text-align: relative;
+    text-align: center;
 }
 
 .heading-hero img {
