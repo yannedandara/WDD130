@@ -358,3 +358,37 @@ a {
     justify-content: center;
     color: var(--accent1-color);
 }
+
+
+
+
+.heading-hero {
+    text-align: relative;
+}
+
+.heading-hero img {
+    width: 100%;
+    height: 35rem;
+}
+
+.heading-hero h2 {
+    position: absolute;
+    width: 100%;
+    top: 30rem;
+    padding: 15px;
+    opacity: 90%;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    box-sizing: border-box;
+    display: grid;
+    grid-column: 1;
+    justify-content: center;
+}
+
+.form-index {
+    justify-content: center;
+}
+
+.form-index legend {
+    text-align: center;
+}
